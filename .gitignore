@@ -5,3 +5,4 @@ node_modules/
 *.h2.db
 *.mv.db
 *.trace.db
+*.log
