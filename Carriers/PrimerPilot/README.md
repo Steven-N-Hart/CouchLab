@@ -8,7 +8,10 @@ TODO: create an SOP
 Make SOP for primer checking…(going to repeat this often, Breast & Panc. separate but equal)
 
 Start with tab file: BED file_10-6-15.xlsx
-Primer Name \t FWD Primer \t REV Primer \t Amplicon Count \t hg19 Location (chr:start-end) \t Product Length
+
+|PrimerName |FWD Primer|REV Primer|Amplicon Count|hg19 Location (chr:start-end)|Product Length|
+|-----------|----------|----------|--------------|-----------------------------|--------------|
+
 
 1. Get all products from faidx - ref hg19.
  * Run = script
