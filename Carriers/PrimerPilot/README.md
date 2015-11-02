@@ -3,6 +3,9 @@
  
  Started: Oct 2015
 
+*Important Decisions*
+Gene specific sequences only [11/02/2015]
+
 
 TODO: create an SOP
 
