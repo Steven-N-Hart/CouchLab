@@ -27,6 +27,11 @@ if !Dir.exists?(outputDirName)
 	Dir.mkdir outputDirName
 end
 
+### NEED TO ADD ADDITIONAL EXCEPTION (I found later) - check for spaces in variant definition!! SNPs in CIS
+## NM_000249.3:c.-27C>A + c.85G>T - short distance, able to  pull ref seq and make 2 changes
+## NM_003000.2:c.194T>A + c.200+3G>C - too long, just split into 2 SNPs
+
+
 File.readlines(ARGV[0]).each_with_index do |ln, idx|
 	rr = ln.split(/\t/)
 	vcfline = []
