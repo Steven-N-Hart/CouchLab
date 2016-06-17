@@ -1,0 +1,50 @@
+Gene	BreastNext	CancerNext	OvaNext	BRCAplus	BRCAPlus	BRCAplus Expanded	PGLNext	ColoNext	PancNext	RenalNext	GYNPlus	CancerNext Expanded
+APC		1						1	1			1
+ATM	1	1	1			1			1			1
+BAP1										1		1
+BARD1	1	1	1									1
+BMPR1A		1						1				1
+BRCA1	1	1	1	1	1	1			1		1	1
+BRCA2	1	1	1	1	1	1			1		1	1
+BRIP1	1	1	1									1
+CDH1	1	1	1	1	1	1		1				1
+CDK4		1										1
+CDKN2A		1							1			1
+CHEK2	1	1	1			1		1				1
+EPCAM		1	1					1	1	1	1	1
+FH							1			1		1
+FLCN										1		1
+GREM1		1						1				1
+MAX							1					1
+MEN1							1					1
+MET										1		1
+MITF										1		1
+MLH1		1	1					1	1	1	1	1
+MRE11A	1	1	1									1
+MSH2		1	1					1	1	1	1	1
+MSH6		1	1					1	1	1	1	1
+MUTYH	1	1	1					1				1
+NBN	1	1	1									1
+NF1	1	1	1				1					1
+PALB2	1	1	1	1	1	1			1			1
+PMS2		1	1					1	1	1	1	1
+POLD1		1						1				1
+POLE		1						1				1
+PTEN	1	1	1	1	1	1		1		1	1	1
+RAD50	1	1	1									1
+RAD51C	1	1	1									1
+RAD51D	1	1	1									1
+RET							1					1
+SDHA							1			1		1
+SDHAF2							1					1
+SDHB							1			1		1
+SDHC							1			1		1
+SDHD							1			1		1
+SMAD4		1						1				1
+SMARCA4		1	1									1
+STK11		1	1					1	1			1
+TMEM127							1					1
+TP53	1	1	1	1	1	1		1	1	1	1	1
+TSC1										1		1
+TSC2										1		1
+VHL							1			1		1
