@@ -3,8 +3,9 @@ setwd("C:\\Users\\m088378\\Desktop") ## May need to edit Mount
 list.files()
 
 
-IN<-read.csv(file="ambry_new_samples.txt",header=T, sep="\t",na.strings = '.')
-TBL<-read.csv(file="AmbryTestPanelBreakdown.txt",header=T, sep="\t",na.strings = '.')
+IN<-read.csv(file="W:\\SEQUENCING\\Ambry\ 110000\ tests\\Clinical Data DEIDENTIFIIED.csv",header=T, na.strings = '.')
+#IN<-read.csv(file="ambry_new_samples.txt",header=T, sep="\t",na.strings = '.')
+TBL<-read.csv(file="C:\\Users\\m088378\\Documents\\CouchLab_Github\\Ambry\\AmbryTestPanelBreakdown.txt",header=T, sep="\t",na.strings = '.')
 names(TBL)
 
 for(g in TBL$Gene){
@@ -67,4 +68,12 @@ for(i in 1:nrow(IN)){
 }
 
 
-write.table(IN,file="ambry_new_samples.output.txt",row.names=F,sep="\t")
+nrow(IN)
+INp1 <- IN[1:62000,]
+write.table(INp1,file="ambry_new_samples.output01.txt",row.names=F,sep="\t")
+INp2 <- IN[62001:122578,]
+write.table(INp2,file="ambry_new_samples.output02.txt",row.names=F,sep="\t")
+
+# plus_GenePanelsListedOut
+
+
